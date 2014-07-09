@@ -1,0 +1,15 @@
+
+.classpath
+
+.project
+
+.settings/org.eclipse.core.resources.prefs
+
+*.prefs
+
+*.class
+
+*.MF
+target/*
+
+keywordparser.log
