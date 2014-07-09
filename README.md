@@ -25,8 +25,8 @@ Algorithm:
 			-FileParser(Business logic)
 		ii.com.sshetty.parser.util
 			-Names.java (All the constants declared in this class)
-	a. src/main/resources
-		-log4j.properties(Currently has only the file appender to avoid duplicate outputs on the console)	
+	b. src/main/resources
+		-log4j.properties(Currently has the file appender only to avoid duplicate outputs on the console)	
 	c.src/test/java
 		i.com.sshetty.parser.tests
 			-FileParserTest.java (Class comprising of all the Unit tests)
