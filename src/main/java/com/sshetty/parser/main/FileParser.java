@@ -92,6 +92,7 @@ public class FileParser {
 			}
 			catch (FileNotFoundException e) {
 				logger.error(e);
+				System.out.println("File does not exist.");
 			}
 		}
 		else{
