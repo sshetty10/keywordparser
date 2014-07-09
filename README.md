@@ -1,7 +1,7 @@
 #File Parsing application
 
 1. Algorithm:
-	1.Fetch absolute Path of the file from user input
+	1.Fetch absolute Path of the file from 
 	2.Instantiate a Map<Category,count> with count 0 for each Category(case sensistive currently. Making it case insensitve just would require us to say map.get(category.toUpper() instead of map.get(category))
 	3.For each line in the file
 		i. Get the first Token.
@@ -37,7 +37,13 @@
 		
 3. Enhanced features
 	Logging using log4j
-
+	
+5. Coding decisions 
+	1. Chose Scanner over BufferedReader as bufferedReader is synchronized and we do not need it in a single threaded application.
+		Its synchronized behavior makes it slower than the scanner.(chose performance over thread safety)
+	2. Used string split function over string tokenizer. The Java API documentation promotes use of split over tokenizer and
+	   mentions that tokenizer is included in latest classes only for backward compatibility.
+	
 4. How to run:
 	-Unzip the project file or get the src from github
 	-New -> Java Project -> Unzipped file Location -> Finish

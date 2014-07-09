@@ -7,4 +7,4 @@ OTHER Tree
 ANIMAL Dog
 PLACE Texas
 FOOD Steak
-ANIMAL Cat
+ANIMAL

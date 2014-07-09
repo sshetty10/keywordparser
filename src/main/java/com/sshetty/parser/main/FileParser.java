@@ -107,12 +107,15 @@ public class FileParser {
 	 * Method runs for each line of the file
 	 */
 	public String tokenizeAndParseLine(String line){
-		StringTokenizer st = new StringTokenizer(line);
-		String category = st.nextToken();
+		String[] tokens = line.split("\\s+");
+		if(tokens.length == 0){
+			return "";
+		}
+		String category = tokens[0];
 		if(categoryMap.get(category)!=null){
 			StringBuffer subCategory = new StringBuffer();
-			while(st.hasMoreTokens()){			//for each token in the line
-				subCategory.append(" "+st.nextToken());
+			for(int i=1; i<tokens.length;i++){			//for each token in the line
+				subCategory.append(" "+tokens[i]);
 			}
 			addIfUnique(category, subCategory);
 		}
