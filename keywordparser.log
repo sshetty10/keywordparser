@@ -1,0 +1,85 @@
+[00:40:29] [ERROR][com.sshetty.parser.main.FileParser][93]- java.io.FileNotFoundException: /Users/Sameeksha/Downloads (Is a directory)
+[00:40:48] [INFO ][com.sshetty.parser.main.FileParser][139]- 
+PERSON Bob Jones
+PLACE Washington
+PERSON Mary
+COMPUTER Mac
+OTHER Tree
+ANIMAL Dog
+PLACE Texas
+ANIMAL Cat
+[00:43:39] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	2
+[00:43:39] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	2
+[00:43:39] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	2
+[00:43:39] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	1
+[00:43:39] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	1
+[00:43:39] [INFO ][com.sshetty.parser.main.FileParser][140]- 
+PERSON Bob Jones
+PLACE Washington
+PERSON Mary
+COMPUTER Mac
+OTHER Tree
+ANIMAL Dog
+PLACE Texas
+ANIMAL Cat
+[00:46:35] [ERROR][com.sshetty.parser.main.ParserMain][44]- java.util.NoSuchElementException
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	1
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	1
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	1
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	0
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	1
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][140]- 
+PERSON Bob Jones
+PLACE Washington
+OTHER Tree
+ANIMAL Cat
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	2
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	2
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	2
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	1
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	1
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][140]- 
+PERSON Bob Jones
+PLACE Washington
+PERSON Mary
+COMPUTER Mac
+OTHER Tree
+ANIMAL Dog
+PLACE Texas
+ANIMAL Cat
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	0
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	0
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	0
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	0
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	0
+[00:46:40] [INFO ][com.sshetty.parser.main.FileParser][140]- 
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	1
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	1
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	1
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	0
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	1
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][140]- 
+PERSON Bob Jones
+PLACE Washington
+OTHER Tree
+ANIMAL Cat
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	2
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	2
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	2
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	1
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	1
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][140]- 
+PERSON Bob Jones
+PLACE Washington
+PERSON Mary
+COMPUTER Mac
+OTHER Tree
+ANIMAL Dog
+PLACE Texas
+ANIMAL Cat
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- PLACE	0
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- ANIMAL	0
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- PERSON	0
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- COMPUTER	0
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][47]- OTHER	0
+[00:54:11] [INFO ][com.sshetty.parser.main.FileParser][140]- 

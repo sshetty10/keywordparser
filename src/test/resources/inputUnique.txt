@@ -1,0 +1,10 @@
+PERSON Bob Jones
+PLACE Washington
+PERSON Bob Jones
+PERSON Bob Jones
+PERSON Bob Jones
+OTHER Tree
+PERSON Bob Jones
+PERSON Bob Jones
+FOOD Steak
+ANIMAL Cat
