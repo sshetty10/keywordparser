@@ -38,12 +38,20 @@
 3. Enhanced features
 	Logging using log4j
 	
-5. Coding decisions 
-	1. Chose Scanner over BufferedReader as bufferedReader is synchronized and we do not need it in a single threaded application.
-		Its synchronized behavior makes it slower than the scanner.(chose performance over thread safety)
+5. Coding Approach: 
+	1. Preferred Scanner over BufferedReader as BufferedReader is synchronized and we do not need it in a single threaded application.
+	   (preferred performance over thread safety)
 	2. Used string split function over string tokenizer. The Java API documentation promotes use of split over tokenizer and
 	   mentions that tokenizer is included in latest classes only for backward compatibility.
-	
+	3. Separated file reading from processing of the each line (String). Good Junit practice to separate IO intensive operations
+	 	from the method implementing business logic to improve test coverage for application specific business logic. (parseFile: IO and 
+	 	tokenizeAndParseLine does the parsing)
+	4. Used a hashSet to implement uniqueness of a category, subcategory pair.
+	5. Used a map to maintain the count for each category. As fetching map.get(category) and map. 
+		Preferred key as a String object because it is not only immutable but also
+	   	the hashcode method of the String is quite foolproof and would return map.get(category) in a constant time.
+	5. Extra whitespaces are trimmed while printing the output.
+	 	
 4. How to run:
 	-Unzip the project file or get the src from github
 	-New -> Java Project -> Unzipped file Location -> Finish
@@ -51,11 +59,9 @@
 	-Run the application
 		a.Using the jar
 			i. cd ${your target} folder
-			ii. java -jar actraffic-app-1.0.2.jar
+			ii. java -jar keywordparser-1.0.1.jar ${absolute path of file}
 		b. From Eclipse
-			i. ActrafficManager.java - > Run as Java Application
-
-
+			i. ParserMain.java - > Run as Java Application
 
 
 
